@@ -15,7 +15,7 @@ SCORE_SET = 2
 def GSresults(queries_file, output_file, check_directory):
     # Open database connection
 
-    db = MySQLdb.connect("localhost","clair","cfhoCPkr","aan" )
+    db = MySQLdb.connect("")
 
     # prepare a cursor object using cursor() method
     cursor = db.cursor()

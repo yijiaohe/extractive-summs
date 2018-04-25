@@ -71,7 +71,7 @@ class Node:
 
 
 def filter(output_directory):
-	db = MySQLdb.connect("localhost","clair","cfhoCPkr","aan" )
+	db = MySQLdb.connect("")
 
 	# prepare a cursor object using cursor() method
 	cursor = db.cursor()
