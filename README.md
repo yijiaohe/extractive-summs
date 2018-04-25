@@ -2,14 +2,14 @@
 
 This is supporting code for an experiment I ran for my senior thesis. 
 
-##Title
-###Evaluation of Extractive Summarization Techniques on Powerpoint Presentations and HTML Pages from the AAN TutorialBank Corpus
+## Title
+### Evaluation of Extractive Summarization Techniques on Powerpoint Presentations and HTML Pages from the AAN TutorialBank Corpus
 
-##Abstract
+## Abstract
 
 This paper compares the performance of four extractive summarization techniques on Powerpoint presentations and HTML webpages. This is part of an exploration in making a tool that can be used to summarize key points of knowledge areas at a higher level, such that beginners in academic fields are able to quickly grasp the basics without getting mired in the details of too specific a subfield or problems tackled in published scientific papers. This project differs from previous work in that it focuses specifically on Powerpoint slides and HTML webpages as the summary candidates, as they are generally less structured and more varied in use of language. The output are a set of sentences that should be factoids relating to the topic at hand. The summary candidates are passed through a ranked information retrieval algorithm first, and then summarized using the extractive summarization techniques TextRank, LexRank, Luhn?s Algorithm, and LSA for comparison. The algorithms are run on seven different topics, and are evaluated using BLEU scores and a topic extraction algorithm. The gold standard for the summaries are taken from the manual summaries performed on the same dataset for a different project. The results indicate that there is promise in using extractive summarization techniques on these media, given that the slides and the webpages are adequately parsed and irrelevant information is trimmed. Performance varies according to the type of media that is parsed, as well as the topic that the algorithms are extracting from. LSA seems to be the algorithm that has consistently above average performance, whereas LexRank performed better for longer text sources but worse for shorter individual slides. The paper will highlight the difficulties of creating a summary for media such as presentations and web tutorials, as well as suggest directions for future explorations in this area.
 
-##Sources
+## Sources
 
 Barrios, Federico, et al. "Variations of the similarity function of textrank for automated summarization." arXiv preprint arXiv:1602.03606 (2016).
 
